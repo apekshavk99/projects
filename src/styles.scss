@@ -1,0 +1,42 @@
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+  font-family: 'CaramelRegular';
+  src: url('./assets/fonts/Caramel-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSansBold';
+  src: url('./assets/fonts/FiraSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSansLight';
+  src: url('./assets/fonts/FiraSans-Medium.ttf');
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.opaque-div {
+  background: #ffffffc4;
+}
+
+h3 {
+  font-family: FiraSansBold;
+}
+
+p,
+a {
+  font-family: FiraSansMedium;
+}
+
+p {
+  font-size: 15px;
+}
